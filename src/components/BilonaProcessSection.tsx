@@ -24,7 +24,7 @@ export const BilonaProcessSection: React.FC = () => {
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div className="relative rounded-3xl overflow-hidden border border-[#DFD3C2] shadow-md h-full min-h-[360px] bg-[#E8DFD1]">
               <img
-                src="/src/assets/images/tradition_vedic_bilona_1793636457582.jpg"
+                src="/images/tradition_vedic_bilona_1793636457582.jpg"
                 alt="Traditional Churning of cultured butter in earthen pot"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

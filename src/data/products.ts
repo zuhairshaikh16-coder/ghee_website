@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '24g',
       shelfLife: '90 Days at Room Temperature',
     },
-    image: '/src/assets/images/classic.jpeg',
+    image: '/images/classic.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '28g',
       shelfLife: '90 Days at Room Temperature',
     },
-    image: '/src/assets/images/01a1a10c-6998-7811-a9e6-ccb67f2d4643.jfif.jpeg',
+    image: '/images/01a1a10c-6998-7811-a9e6-ccb67f2d4643.jfif.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '32g',
       shelfLife: '90 Days at Room Temperature',
     },
-    image: '/src/assets/images/01a1a10e-79f4-7f93-9cab-1e80df1a2896.jfif.jpeg',
+    image: '/images/01a1a10e-79f4-7f93-9cab-1e80df1a2896.jfif.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -86,7 +86,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '21g',
       shelfLife: '75 Days at Room Temperature',
     },
-    image: '/src/assets/images/protien.jpeg',
+    image: '/images/protien.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -104,7 +104,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '22g',
       shelfLife: '60 Days in Cool Dry Place',
     },
-    image: '/src/assets/images/2-Picsart-AiImageEnhancer.jpg.jpeg',
+    image: '/images/2-Picsart-AiImageEnhancer.jpg.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -123,7 +123,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '34g',
       shelfLife: '90 Days at Room Temperature',
     },
-    image: '/src/assets/images/62173d30-bc37-485c-bc2a-3f17ef2f7ce9.jfif.jpeg',
+    image: '/images/62173d30-bc37-485c-bc2a-3f17ef2f7ce9.jfif.jpeg',
     weightOptions: PANJIRI_WEIGHT_OPTIONS,
   },
   {
@@ -142,7 +142,7 @@ export const PRODUCTS: Product[] = [
       goodFats: '99.7g',
       shelfLife: '12 Months (Store in Cool Dry Place)',
     },
-    image: '/src/assets/images/256a2d72-6b3e-43ba-8337-c416ebddfc71.png',
+    image: '/images/256a2d72-6b3e-43ba-8337-c416ebddfc71.png',
     weightOptions: GHEE_VOLUME_OPTIONS,
   },
 
@@ -271,8 +271,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 1,
     description: 'Watch the rhythmic bi-directional churning of whole milk dahi in earthen pots to separate luscious, golden makhan from buttermilk.',
     chefTips: 'Keep the temperature cool during churning so the butter globule crystals stay intact and do not melt prematurely.',
-    videoSrc: '/videos/1.mp4',
-    posterImg: '/src/assets/images/tradition_vedic_bilona_1793636457582.jpg',
+    videoSrc: 'public/videos/1.mp4',
+    posterImg: 'public/assets/images/tradition_vedic_bilona_1793636457582.jpg',
   },
   {
     id: 'simmer-ghee',
@@ -282,8 +282,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 2,
     description: 'The golden makhan is gently melted over low flame. The foam crackles and settles, separating clear golden liquid ghee with aromatic granular sediments.',
     chefTips: 'Cook on low heat. High heat burns the caramelising milk solids and destroys the natural nutty fragrance.',
-    videoSrc: '/videos/2.mp4',
-    posterImg: '/src/assets/images/hero_bilona_ghee_pour_1793636454276.jpg',
+    videoSrc: 'public/videos/2.mp4',
+    posterImg: 'public/assets/images/hero_bilona_ghee_pour_1793636454276.jpg',
   },
   {
     id: 'puff-gond',
@@ -293,8 +293,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 3,
     description: 'Pure edible gum crystals (Gond) are dropped into hot desi ghee. They instantly expand and puff into airy, crunchy white popcorn-like gems.',
     chefTips: 'Gond must be roasted on medium-low heat so it cooks completely through without remaining hard or gummy in the center.',
-    videoSrc: '/videos/3.mp4',
-    posterImg: '/src/assets/images/product_panjiri_bowl_1793636456547.jpg',
+    videoSrc: 'public/videos/3.mp4',
+    posterImg: 'public/assets/images/product_panjiri_bowl_1793636456547.jpg',
   },
   {
     id: 'roast-atta',
@@ -304,8 +304,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 4,
     description: 'Coarse whole wheat flour (atta) and suji are roasted continuously in generous ladles of pure desi ghee until a deep golden hue and intoxicating roasted aroma fills the kitchen.',
     chefTips: 'Constant stirring with a heavy wooden ladle prevents scorching and produces uniform nutty sweetness.',
-    videoSrc: '/videos/4.mp4',
-    posterImg: '/public/assets/aistudio/image_9615a613.png',
+    videoSrc: 'public/videos/4.mp4',
+    posterImg: 'public/assets/aistudio/image_9615a613.png',
   },
   {
     id: 'combine-nuts',
@@ -315,7 +315,7 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 5,
     description: 'Ghee-roasted almonds, cashews, pistachios, melon seeds, crushed gond, and freshly ground green cardamom with saffron strands are folded into the warm mixture.',
     chefTips: 'Sweetener is added only after the roasted mixture cools slightly, preserving its crisp texture without turning sticky.',
-    videoSrc: '/videos/5.mp4',
-    posterImg: '/src/assets/images/product_panjiri_bowl_1793636456547.jpg',
+    videoSrc: 'public/videos/5.mp4',
+    posterImg: 'public/assets/images/product_panjiri_bowl_1793636456547.jpg',
   },
 ];
