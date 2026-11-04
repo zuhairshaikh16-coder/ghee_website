@@ -271,8 +271,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 1,
     description: 'Watch the rhythmic bi-directional churning of whole milk dahi in earthen pots to separate luscious, golden makhan from buttermilk.',
     chefTips: 'Keep the temperature cool during churning so the butter globule crystals stay intact and do not melt prematurely.',
-    videoSrc: 'public/videos/1.mp4',
-    posterImg: 'public/assets/images/tradition_vedic_bilona_1793636457582.jpg',
+    videoSrc: '/videos/1.MP4',
+    posterImg: '/assets/images/tradition_vedic_bilona_1793636457582.jpg',
   },
   {
     id: 'simmer-ghee',
@@ -282,8 +282,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 2,
     description: 'The golden makhan is gently melted over low flame. The foam crackles and settles, separating clear golden liquid ghee with aromatic granular sediments.',
     chefTips: 'Cook on low heat. High heat burns the caramelising milk solids and destroys the natural nutty fragrance.',
-    videoSrc: 'public/videos/2.mp4',
-    posterImg: 'public/assets/images/hero_bilona_ghee_pour_1793636454276.jpg',
+    videoSrc: '/videos/2.mp4',
+    posterImg: '/assets/images/hero_bilona_ghee_pour_1793636454276.jpg',
   },
   {
     id: 'puff-gond',
@@ -293,8 +293,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 3,
     description: 'Pure edible gum crystals (Gond) are dropped into hot desi ghee. They instantly expand and puff into airy, crunchy white popcorn-like gems.',
     chefTips: 'Gond must be roasted on medium-low heat so it cooks completely through without remaining hard or gummy in the center.',
-    videoSrc: 'public/videos/3.mp4',
-    posterImg: 'public/assets/images/product_panjiri_bowl_1793636456547.jpg',
+    videoSrc: '/videos/3.mp4',
+    posterImg: '/assets/images/product_panjiri_bowl_1793636456547.jpg',
   },
   {
     id: 'roast-atta',
@@ -304,8 +304,8 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 4,
     description: 'Coarse whole wheat flour (atta) and suji are roasted continuously in generous ladles of pure desi ghee until a deep golden hue and intoxicating roasted aroma fills the kitchen.',
     chefTips: 'Constant stirring with a heavy wooden ladle prevents scorching and produces uniform nutty sweetness.',
-    videoSrc: 'public/videos/4.mp4',
-    posterImg: 'public/assets/aistudio/image_9615a613.png',
+    videoSrc: '/videos/4.mp4',
+    posterImg: '/assets/aistudio/image_9615a613.png',
   },
   {
     id: 'combine-nuts',
@@ -315,7 +315,7 @@ export const MAKING_VIDEO_CHAPTERS: MakingVideoChapter[] = [
     stepNumber: 5,
     description: 'Ghee-roasted almonds, cashews, pistachios, melon seeds, crushed gond, and freshly ground green cardamom with saffron strands are folded into the warm mixture.',
     chefTips: 'Sweetener is added only after the roasted mixture cools slightly, preserving its crisp texture without turning sticky.',
-    videoSrc: 'public/videos/5.mp4',
-    posterImg: 'public/assets/images/product_panjiri_bowl_1793636456547.jpg',
+    videoSrc: '/videos/5.mp4',
+    posterImg: '/assets/images/product_panjiri_bowl_1793636456547.jpg',
   },
 ];
