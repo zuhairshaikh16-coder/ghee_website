@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 text-base font-medium text-[#3E2312] hover:bg-amber-50 rounded-lg"
           >
-            Panjiri Varieties (from Rs 1,200/kg)
+            Panjiri Varieties (from Rs 4,000/kg)
           </a>
           <a
             href="#ghee"
