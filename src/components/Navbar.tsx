@@ -47,12 +47,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               Panjiri Menu
             </a>
+
             <a
               href="#menu"
               className="hover:text-[#A14E15] transition-colors whitespace-nowrap shrink-0"
             >
               Pure Desi Ghee
             </a>
+            
             <a
               href="#bilona-process"
               className="hover:text-[#A14E15] transition-colors whitespace-nowrap shrink-0"
