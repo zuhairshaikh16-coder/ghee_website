@@ -253,7 +253,7 @@ export default function App() {
         </button>
 
         <a
-          href="https://api.whatsapp.com/send?phone=923001234567&text=Assalam%20o%20Alaikum!%20I%20would%20like%20to%20order%20Desi%20Ghee%20and%20Panjiri."
+          href="https://api.whatsapp.com/send?phone=923252873391&text=Assalam%20o%20Alaikum!%20I%20would%20like%20to%20order%20Desi%20Ghee%20and%20Panjiri."
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 py-2.5 px-3 bg-[#15803D] hover:bg-[#166534] rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 cursor-pointer text-white"
