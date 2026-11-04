@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               Pure Desi Ghee
             </a>
-            
+
             <a
               href="#bilona-process"
               className="hover:text-[#A14E15] transition-colors whitespace-nowrap shrink-0"
@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 text-base font-medium text-[#3E2312] hover:bg-amber-50 rounded-lg"
           >
-            Panjiri Varieties (from ₹1,200/kg)
+            Panjiri Varieties (from Rs 1,200/kg)
           </a>
           <a
             href="#ghee"
