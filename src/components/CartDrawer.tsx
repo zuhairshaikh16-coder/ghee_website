@@ -44,15 +44,21 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       return;
     }
 
-    if (
-      !customerName.trim() ||
-      !phone.trim() ||
-      !city.trim() ||
-      !address.trim()
-    ) {
-      alert('Please fill in all delivery details.');
-      return;
-    }
+   if (
+  !customerName.trim() ||
+  !phone.trim() ||
+  !city.trim() ||
+  !address.trim()
+) {
+  alert('Please fill in all delivery details.');
+  return;
+}
+
+// Phone number must contain exactly 11 digits.
+if (!/^03[0-9]{9}$/.test(phone)) {
+  alert('Please enter a valid 11-digit Pakistani mobile number, e.g. 03123456789.');
+  return;
+}
 
     const messageLines = [
       '*NEW ORDER - DESI GHEE & PANJIRI*',
@@ -152,13 +158,18 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   <label className="block text-xs font-semibold text-[#523A29] mb-1">
                     Phone / WhatsApp Number *
                   </label>
-                  <input
-                    type="tel"
-                    required
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    placeholder="e.g. 0300 1234567"
-                    className="w-full px-3 py-2 text-sm bg-white border border-[#D8C7B2] rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600"
+                 <input
+                        type="tel"
+                        required
+                        inputMode="numeric"
+                        maxLength={11}
+                        minLength={11}
+                        pattern="03[0-9]{9}"
+                        title="Enter exactly 11 digits, starting with 03. Example: 03123456789"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 11))}
+                        placeholder="03123456789"
+                        className="w-full px-3 py-2 text-sm bg-white border border-[#D8C7B2] rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600"
                   />
                 </div>
 
