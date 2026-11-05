@@ -14,7 +14,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   onQuickWhatsApp,
 }) => {
   const [selectedWeight, setSelectedWeight] = useState<ProductWeightOption>(
-    product.weightOptions[2] || product.weightOptions[0]
+    product.weightOptions[1] || product.weightOptions[0]
   );
   const [addedAnimation, setAddedAnimation] = useState(false);
   const [showDetails, setShowDetails] = useState(false);

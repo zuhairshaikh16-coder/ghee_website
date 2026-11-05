@@ -20,7 +20,7 @@ export default function App() {
   const [isPosterModalOpen, setIsPosterModalOpen] = useState(false);
   const [isDownloadZipOpen, setIsDownloadZipOpen] = useState(false);
 
-  // Filtered products list
+// Filtered products list
   const filteredProducts = useMemo(() => {
     if (selectedCategory === 'all') return PRODUCTS;
     return PRODUCTS.filter((p) => p.category === selectedCategory);
@@ -59,6 +59,7 @@ export default function App() {
       ];
     });
   };
+
 
   const handleUpdateQuantity = (index: number, newQty: number) => {
     if (newQty <= 0) {
@@ -114,7 +115,7 @@ export default function App() {
           </a>
         </div>
 
-        {/* High visibility 1-click download trigger */}
+   {/* High visibility 1-click download trigger */}
 
       </div>
 
@@ -127,7 +128,7 @@ export default function App() {
         activeSection="menu"
       />
 
-      <main className="flex-1">
+       <main className="flex-1">
         {/* Hero Section with Animated Video and Generative AI Canvas */}
         <HeroVideo
           onExploreMenu={scrollToMenu}
@@ -136,8 +137,6 @@ export default function App() {
         />
 
         {/* Original Menu Spotlight Bar */}
-                {/* Interactive Video: How Ghee & Panjiri Is Made */}
-        <HowItsMadeVideoSection />
 
         {/* Product Catalog Section */}
         <section id="menu" className="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -152,8 +151,7 @@ export default function App() {
             <p className="mt-4 text-base sm:text-lg text-[#5C4535] leading-relaxed">
               Every preparation is slow-roasted in pure Asli Desi Ghee with authentic whole ingredients. Select your custom pack size (250g, 500g, 1kg, 2kg).
             </p>
-
-            {/* Interactive Category Filter Segmented Control */}
+              {/* Interactive Category Filter Segmented Control */}
             <div className="inline-flex items-center gap-1.5 p-1.5 mt-8 bg-[#F2ECE1] rounded-2xl border border-[#DFD3C2]">
               <button
                 type="button"
@@ -174,8 +172,7 @@ export default function App() {
                     ? 'bg-[#2A1406] text-white shadow-sm'
                     : 'text-[#614532] hover:text-[#2A1406] hover:bg-white/50'
                 }`}
-              >
-                Panjiri Varieties ({panjiriProducts.length})
+              > Panjiri Varieties ({panjiriProducts.length})
               </button>
               <button
                 type="button"
@@ -190,8 +187,7 @@ export default function App() {
               </button>
             </div>
           </div>
-
-          {/* Product Cards Grid */}
+ {/* Product Cards Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {filteredProducts.map((product) => (
               <ProductCard
@@ -203,6 +199,8 @@ export default function App() {
             ))}
           </div>
         </section>
+        {/* Interactive Video: How Ghee & Panjiri Is Made */}
+        <HowItsMadeVideoSection />
 
         {/* Traditional Crafting Method */}
         <BilonaProcessSection />
@@ -241,8 +239,7 @@ export default function App() {
         onOpenDownloadZip={() => setIsDownloadZipOpen(true)}
         onOpenPosterModal={() => setIsPosterModalOpen(true)}
       />
-
-      {/* Floating Bottom Action for Mobile (Under 15% mobile viewport cap) */}
+ {/* Floating Bottom Action for Mobile (Under 15% mobile viewport cap) */}
       <div className="sm:hidden fixed bottom-3 inset-x-3 z-30 flex items-center gap-2 p-1.5 bg-[#2A1406]/95 backdrop-blur-md text-white rounded-2xl shadow-xl border border-amber-900/40">
         <button
           onClick={() => setIsCartOpen(true)}
